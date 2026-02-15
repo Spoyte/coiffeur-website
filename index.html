@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon de Coiffure - Votre Style, Notre Passion</title>
+    <meta name="description" content="Salon de coiffure professionnel. Coupes, colorations, soins et coiffures de mariée. Rendez-vous en ligne.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-brand">
+            <span class="logo">✂️</span>
+            <span class="brand-name">Salon [Nom]</span>
+        </div>
+        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#rdv" class="btn-rdv">Prendre RDV</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <h1>Votre Style,<br><span class="highlight">Notre Passion</span></h1>
+            <p class="hero-subtitle">Salon de coiffure professionnel où chaque coupe raconte une histoire. Femmes, hommes, enfants — nous sublimons tous les styles.</p>
+            <div class="hero-actions">
+                <a href="#rdv" class="btn btn-primary">Réserver maintenant</a>
+                <a href="#services" class="btn btn-secondary">Nos services</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-placeholder">
+                <span>📸 Photo du salon</span>
+                <small>Remplacer par une belle photo de l'intérieur</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Des prestations sur mesure pour sublimer votre beauté naturelle</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✂️</div>
+                    <h3>Coupe & Brushing</h3>
+                    <p>Coupe personnalisée, brushing, lissage ou boucles. Un style unique qui vous ressemble.</p>
+                    <span class="price">À partir de 25€</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Coloration</h3>
+                    <p>Coloration complète, balayage, ombré, mèches. Des produits professionnels pour des résultats éclatants.</p>
+                    <span class="price">À partir de 45€</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💆</div>
+                    <h3>Soins Capillaires</h3>
+                    <p>Soins nourrissants, restructurants, kératine. Redonnez vie à vos cheveux.</p>
+                    <span class="price">À partir de 30€</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👰</div>
+                    <h3>Coiffure de Mariée</h3>
+                    <p>Chignons élégants, coiffures romantiques. Essai inclus pour un jour parfait.</p>
+                    <span class="price">Sur devis</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👨</div>
+                    <h3>Barbe & Homme</h3>
+                    <p>Coupe homme, taille de barbe, soin complet. Le style masculin revisité.</p>
+                    <span class="price">À partir de 18€</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👶</div>
+                    <h3>Enfants</h3>
+                    <p>Coupe douce et patiente pour les plus petits. Ambiance détendue garantie.</p>
+                    <span class="price">À partir de 15€</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galerie">
+        <div class="container">
+            <h2 class="section-title">Nos Réalisations</h2>
+            <p class="section-subtitle">Quelques unes de nos créations</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <small>Photo avant/après 1</small>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <small>Photo avant/après 2</small>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <small>Photo avant/après 3</small>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <small>Photo avant/après 4</small>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <small>Photo avant/après 5</small>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <small>Photo avant/après 6</small>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="gallery-note">💡 <strong>Pour le coiffeur :</strong> Remplacez ces placeholders par de vraies photos de vos réalisations. Format recommandé : 800x600px, format paysage.</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="tarifs">
+        <div class="container">
+            <h2 class="section-title">Nos Tarifs</h2>
+            <p class="section-subtitle">Des prix transparents pour des prestations de qualité</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Coupe Femme</h3>
+                    <ul>
+                        <li><span>Coupe + Brushing</span><span>35€</span></li>
+                        <li><span>Coupe + Lissage</span><span>45€</span></li>
+                        <li><span>Coupe + Boucles</span><span>40€</span></li>
+                        <li><span>Brushing seul</span><span>25€</span></li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Coloration</h3>
+                    <ul>
+                        <li><span>Coloration racines</span><span>45€</span></li>
+                        <li><span>Coloration complète</span><span>65€</span></li>
+                        <li><span>Balayage / Ombré</span><span>75€</span></li>
+                        <li><span>Mèches</span><span>55€</span></li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Soins & Spécial</h3>
+                    <ul>
+                        <li><span>Soin nourrissant</span><span>30€</span></li>
+                        <li><span>Kératine</span><span>120€</span></li>
+                        <li><span>Coiffure mariée</span><span>Sur devis</span></li>
+                        <li><span>Chignon soirée</span><span>55€</span></li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Homme & Enfant</h3>
+                    <ul>
+                        <li><span>Coupe homme</span><span>18€</span></li>
+                        <li><span>Coupe + Barbe</span><span>28€</span></li>
+                        <li><span>Taille barbe</span><span>12€</span></li>
+                        <li><span>Coupe enfant (-12 ans)</span><span>15€</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p class="pricing-note">* Les tarifs peuvent varier selon la longueur et l'épaisseur des cheveux. Devis gratuit sur demande.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Notre Histoire</h2>
+                    <p>Avec plus de <strong>10 ans d'expérience</strong>, notre salon allie expertise technique et créativité pour vous offrir des prestations sur mesure.</p>
+                    <p>Nous utilisons des <strong>produits professionnels</strong> de haute qualité, respectueux de vos cheveux et de l'environnement.</p>
+                    <ul class="about-features">
+                        <li>✓ Produits professionnels</li>
+                        <li>✓ Ambiance chaleureuse</li>
+                        <li>✓ Conseil personnalisé</li>
+                        <li>✓ Parking à proximité</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <span>📸 Photo de l'équipe</span>
+                        <small>Une photo de vous ou de votre équipe</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment" id="rdv">
+        <div class="container">
+            <h2 class="section-title">Prendre Rendez-vous</h2>
+            <p class="section-subtitle">Réservez votre créneau en quelques clics</p>
+            
+            <div class="appointment-options">
+                <div class="appointment-card">
+                    <h3>📞 Par Téléphone</h3>
+                    <p class="phone-number">01 23 45 67 89</p>
+                    <p>Du mardi au samedi<br>9h00 - 19h00</p>
+                </div>
+                
+                <div class="appointment-card">
+                    <h3>💻 En Ligne</h3>
+                    <p>Réservez 24h/24 via notre partenaire</p>
+                    <a href="#" class="btn btn-primary">Réserver en ligne</a>
+                    <p class="small">💡 <em>Configurez votre lien de réservation ici</em></p>
+                </div>
+                
+                <div class="appointment-card">
+                    <h3>📍 Sur Place</h3>
+                    <p>Venez nous voir directement</p>
+                    <p class="address">123 Rue de la Coiffure<br>75000 Paris</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Nous Contacter</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informations</h3>
+                    <p><strong>📍 Adresse :</strong><br>123 Rue de la Coiffure<br>75000 Paris</p>
+                    <p><strong>📞 Téléphone :</strong><br>01 23 45 67 89</p>
+                    <p><strong>✉️ Email :</strong><br>contact@salon.fr</p>
+                    <p><strong>🕐 Horaires :</strong><br>
+                    Mardi - Vendredi : 9h - 19h<br>
+                    Samedi : 9h - 18h<br>
+                    Dimanche - Lundi : Fermé</p>
+                </div>
+                
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <span>🗺️ Carte Google Maps</span>
+                        <small>Intégrez votre carte ici</small>
+                        <code>&lt;iframe src="https://www.google.com/maps/embed..."&gt;&lt;/iframe&gt;</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">✂️</span>
+                    <span>Salon [Nom]</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="TikTok">🎵</a>
+                </div>
+            </div>
+            <p class="footer-copy">© 2024 Salon de Coiffure. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
