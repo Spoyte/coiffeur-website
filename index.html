@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salon de Coiffure - Votre Style, Notre Passion</title>
     <meta name="description" content="Salon de coiffure professionnel. Coupes, colorations, soins et coiffures de mariée. Rendez-vous en ligne.">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Matomo Analytics (self-hosted, GDPR compliant) -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//analytics.votredomaine.com/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
 </head>
 <body>
     <!-- Navigation -->
@@ -294,9 +309,25 @@
                     <a href="#" aria-label="TikTok">🎵</a>
                 </div>
             </div>
+            <div class="footer-legal">
+                <a href="#mentions-legales">Mentions légales</a>
+                <a href="#confidentialite">Politique de confidentialité</a>
+                <a href="#cookies">Gestion des cookies</a>
+            </div>
             <p class="footer-copy">© 2024 Salon de Coiffure. Tous droits réservés.</p>
         </div>
     </footer>
+
+    <!-- GDPR Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>🍪 Ce site utilise des cookies pour améliorer votre expérience. <a href="#confidentialite">En savoir plus</a>.</p>
+            <div class="cookie-buttons">
+                <button onclick="acceptCookies()" class="btn btn-primary">Accepter</button>
+                <button onclick="refuseCookies()" class="btn btn-secondary">Refuser</button>
+            </div>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>

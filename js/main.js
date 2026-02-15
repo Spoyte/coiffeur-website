@@ -57,3 +57,26 @@ document.querySelectorAll('.service-card, .pricing-card, .appointment-card').for
     card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
     observer.observe(card);
 });
+
+// GDPR Cookie Banner
+function showCookieBanner() {
+    const banner = document.getElementById('cookie-banner');
+    const consent = localStorage.getItem('cookieConsent');
+    if (!consent) {
+        banner.style.display = 'block';
+    }
+}
+
+function acceptCookies() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+    // Enable analytics here if needed
+}
+
+function refuseCookies() {
+    localStorage.setItem('cookieConsent', 'refused');
+    document.getElementById('cookie-banner').style.display = 'none';
+}
+
+// Show banner on load
+document.addEventListener('DOMContentLoaded', showCookieBanner);
